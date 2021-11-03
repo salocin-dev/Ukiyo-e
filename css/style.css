@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+header{
+    width: 100%;
+    background: url(../img/bg-header.png);
+    background-size: cover;
+    height: 100vh;
+}
+.logo{
+    margin-top: 20px;
+}
+header nav{
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+header nav ul li a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    font-size: 16px;
+    color: red;
+    text-decoration: none;
+}
+
+header #hero{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 180px;
+}
+header #hero h1{
+    color: red;
+    font-size: 60px;
+    margin: 0;
+}
+header #hero h2{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+header #hero a{
+    background: red;
+    padding: 12px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 8px;
+    color: grey;
+    transition: .5s;
+}
+header #hero a:hover{
+    padding: 12px 60px;
+    border-radius: 0;
+    background: white;
+}
+
+ /*seccion planes*/
+
+#planes{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #fff;
+}
+#planes .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#planes h2{
+    font-size: 26px;
+}
+#planes p{
+    font-size: 20px;
+}
+#planes .fila{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+#planes .fila .card{
+    position: relative;
+}
+#planes .fila .card h3{
+    font-size: 26px;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    color: red;
+}
+
+/* seccion destinos */
+
+#destinos{
+    background: url(../img/bg-destinos.png);
+    background-size: cover;
+}
+#destinos #container .fila #card h3{
+    color: #fff;
+    font-size: 30px;
+}
+#destinos #container h2{
+    color: red;
+    font-size: 50px;
+    padding: 30px;
+}
+#destinos #container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#destinos{
+    padding-top: 10px;
+    text-align: center;
+}
+#container .fila{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Contacto */
+
+#contacto{
+    background: red;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#contacto .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#contacto h2{
+    font-size: 30px;
+}
+#contacto p{
+    font-size: 20px;
+}
+#contacto input{
+    padding: 4px 15px;
+    font-size: 20px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 8px;
+}
+#contacto select{
+    padding: 8px 15px;
+    font-size: 20px;
+    width: 332px;
+    margin: 20px;
+    border-radius: 8px;
+}
+#contacto button{
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background: rgb(156, 10, 10);
+    border: none;
+}
+footer{
+    text-align: center;
+    background: #000;
+    color: white;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+html{
+    scroll-behavior: smooth;
+}
